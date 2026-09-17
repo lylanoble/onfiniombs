@@ -1,10 +1,10 @@
 {
-  "name": "My App Name",
+  "name": "Onfinio NPI Database",
   "short_name": "App",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#17191C",
+  "theme_color": "#17191C",
   "orientation": "any",
   "icons": [
     {
