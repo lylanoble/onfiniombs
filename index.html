@@ -43,14 +43,6 @@
     <!-- Replace the src URL with your desired link -->
     <iframe src="https://script.google.com/macros/s/AKfycbwuHHEInXg6_NEW0eG789l0_JCPxyQPnKB0hxh4hcp9JDc3gAMSoBrcjD4PMPLcIAc8fw/exec" allow="fullscreen; autoplay; encrypted-media; geolocation"></iframe>
 
-    <script>
-        // Register Service Worker for PWA / installability
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js')
-                    .catch(err => console.log('Service Worker registration failed: ', err));
-            });
-        }
-    </script>
+
 </body>
 </html>
